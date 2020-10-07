@@ -1,0 +1,35 @@
+.items {
+  border-top: #2c3e50 2px solid;
+}
+
+.row__main {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  height: 700px;
+  overflow: auto;
+}
+.row__head__first {
+  display: flex;
+  justify-content: center;
+}
+.row__head__second {
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  position: sticky;
+  top: 10px;
+}
+
+.option {
+  border: 2px #2c3e50 solid;
+  width: 200px;
+}
+
+h4 {
+  margin: 5px;
+}
+
+/*# sourceMappingURL=styles.css.map */
