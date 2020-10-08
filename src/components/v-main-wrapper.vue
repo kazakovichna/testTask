@@ -14,8 +14,8 @@
     </div>
     <div class="body">
       <v-binance-data
-        :product_data_asks="PRODUCTS.asks"
-        :product_data_bids="PRODUCTS.bids"
+        :product_data_asks="PRODUCTS_ASKS"
+        :product_data_bids="PRODUCTS_BIDS"
         :is_desktop="IS_DESKTOP"
       />
     </div>
@@ -40,7 +40,8 @@ export default {
   },
   computed: {
     ...mapGetters([
-      'PRODUCTS',
+      'PRODUCTS_ASKS',
+      'PRODUCTS_BIDS',
       'URLS',
       'CURRENT_URL',
       'IS_MOBILE',

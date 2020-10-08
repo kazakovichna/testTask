@@ -12,7 +12,10 @@ Vue.use(Vuex);
 
 let store = new Vuex.Store({
   state: {
-    products: [],
+    products: {
+      asks: [],
+      bids: []
+    },
     urls: [
       {id: 0, url: 'http://www.binance.com/api/v1/depth?symbol=BTCUSDT&limit=500', name: 'BTCUSDT'},
       {id: 1, url: 'http://www.binance.com/api/v1/depth?symbol=BNBBTC&limit=500', name: 'BNBBTC'},

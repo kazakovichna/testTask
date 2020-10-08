@@ -1,6 +1,7 @@
 export default {
   SET_PRODUCTS_TO_STATE: (state, products) => {
-    state.products = products;
+    state.products.asks = products.asks;
+    state.products.bids = products.bids;
   },
   SET_CURRENT_URL: (state, option) => {
     state.current_url = option.url;

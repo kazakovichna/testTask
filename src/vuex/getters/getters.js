@@ -1,6 +1,9 @@
 export default {
-  PRODUCTS(state) {
-    return state.products
+  PRODUCTS_ASKS (state) {
+    return state.products.asks;
+  },
+  PRODUCTS_BIDS (state) {
+    return state.products.bids;
   },
   URLS(state) {
     return state.urls
